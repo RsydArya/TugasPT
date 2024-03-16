@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Madimi One;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0px 1px 5px 0px;
+}
+
+ul {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding-top: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.eaa {
+    padding: 150px 20px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divkiri {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.divkanan {
+    margin-right: 100px;
+}
+
+button {
+    background-color: purple;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+ul>li:hover {
+    color: white;
+    padding: 10px;
+    background-color: purple;
+    border-radius: 13px;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: purple;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    background-color: purple;
+    border-radius: 13px;
+    transition: all .3s ease-in-out;
+}
+
+@media only screen and (max-width: 1000px) {
+    .eaa {
+        flex-direction: column;
+        align-items: center;
+    }
+    .divkiri,
+    .divkanan {
+        margin: 0;
+        text-align: center;
+    }
+}
